@@ -1,0 +1,283 @@
+/* Inicio de CSS de Index */
+
+header {
+    background-color: rgba(128, 128, 128, 0.7);
+    overflow: hidden;
+    margin: -10px;
+    position: relative;
+}
+
+nav {
+    font-size: 20px;
+    position: fixed;
+    top: 16px;
+    left: 24em;
+    padding: 10px 0px 10px 0px;
+}
+.menus {
+    margin-left: -5px;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.menus:hover {
+    background-color: rgba(128, 128, 128, 0.7);
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.menu-active {
+    background-color: lightgray;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    position: relative;
+    left: 6.5em;
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+.logo:hover {
+    position: relative;
+    left: 6.5em;
+    background-color: lightblue;
+    padding: 3px;
+}
+/* Correcion de errores /*
+
+.logo {
+    font-size: 2em;
+    padding: 0px 0px 0px 5px;
+    cursor: pointer;
+    position: relative;
+    left: 6.5em;
+ }
+ .logo:hover {
+     background-color: lightslategray;
+    position: relative;
+    width: 7.9em;
+    left: 6.5em;
+ }
+
+/* Correcion de errores */ 
+
+.resizedimage {
+    display: block;
+    width: 75%;
+    height: 350px;
+    margin: auto;
+    position: relative;
+    top: 11px;
+}
+.resizedimage:hover {
+    background-color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+.hr-inicio {
+    border-color: black;
+    margin: 50px;
+    width: 74.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titulo-inicio {
+    padding-left: 12.2%;
+    padding-right: 12.2%;
+    margin-top: -30px;
+    font-size: 48px;
+    font-family: Raleway, sans-serif;
+}
+.body-text {
+    padding-left: 12.2%;
+    padding-right: 12%;
+    margin-top: -50px;
+    font-family: Raleway;
+    font-size: 20px;
+    text-align: justify;
+    height: 100px;
+    line-height: 35px;
+}
+.login-navbar {
+    position: absolute;
+    top: 0px;
+    left: 52em;
+}
+.login-css {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.login-css:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.navbar {
+    font-size: 20px;
+    position: fixed;
+    top: 16px;
+    left: 24em;
+    padding: 10px 0px 10px 0px;
+}
+
+/* Fin de CSS de Index */
+
+
+/* Inicio de CSS de Portafolio */
+
+[type='submit'] {
+    background: #20D61D;
+    position: absolute;
+    left: 5.5%;
+    top: 37%;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 10%;
+    border-style: none;
+    cursor: pointer;
+    }
+
+.tarjeta {
+    width: 245px;
+    height: 350px;
+    background-color: lightblue;
+    margin: 10px;
+    border-radius: 5%;
+}
+.contenido-tarjeta {
+    padding: 10px;
+}
+p {
+    font-size: 24px;
+    text-align: center;
+}
+h4 {
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+    }
+.hr-portafolio {
+        border-color: black;
+    }
+
+/* Fin de CSS de Portafolio */
+
+
+/* Inicio de CSS de Login/Register */
+
+.background-login-register {
+    background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+    margin: 10px -10px 0px -10px;
+    height: 700px;
+    overflow: auto;
+    text-align: center;
+}
+
+.login-register-text {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+}
+
+.small-login-text {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: -65px;
+}
+
+.tarjeta-login-register {
+    width: 245px;
+    height: 320px;
+    background-color: rgba(122, 193, 116, 0.8);
+    margin: 10px;
+    border-radius: 5%;
+    position: relative;
+    top: 18%;
+    left: 42.5%;
+}
+.contenido-tarjeta-login-register {
+    padding: 10px;
+}
+#login {
+    position: absolute;
+    top: 80%;
+    left: 32.5%;
+    padding: 5px 20px 5px 20px;
+    color: black;
+    font-weight: bold;
+    border-style: none;
+    background-color: #C351C6;
+    border-radius: 5px;
+}
+[type='checkbox' ] {
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+}
+
+/* Fin de CSS de Login/Register */
+
+
+/* Inicio de CSS de Contactenos */
+#contactenos {
+    background-color: lightcoral;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 800px;
+    height: 375px;
+    padding: 25px;
+}
+.texto {
+    margin-bottom: 20px;
+}
+[type='text'] {
+    width: 500px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: gray;
+    font-size: 28px;
+    text-align: center;
+}
+textarea {
+    width: 500px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: gray;
+    font-size: 18px;
+    text-align: left;
+}
+.boton {
+    background: #20D61D;
+    margin-top: 30px;
+    padding: 10px 30px 10px 30px;
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 10%;
+    border-style: none;
+    cursor: pointer;
+}
+/* Fin de CSS de Contactenos */
+
+
+/* Inicio de CSS de Gracias */
+#gracias-box {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 750px;
+    height: 500px;
+    padding: 25px;
+    background: lightgreen;
+}
